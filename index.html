@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADN: Cuidador de la Celula</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="game" class="game-shell" aria-live="polite"></main>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="icon-button close-modal" type="button" aria-label="Cerrar">x</button>
+      <p id="modalKicker" class="kicker"></p>
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+      <div id="modalActions" class="modal-actions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
